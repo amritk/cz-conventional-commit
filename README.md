@@ -17,10 +17,11 @@ npm install --global commitizen @metahub/cz-conventional-commit
 Create a .czrc file in your home directory, with the following content:
 ```json
 {
-  "path": "@metahub/cz-conventional-commit",
+  "path": "path/to/this/repo",
   "cz-conventional-commit": {
     "maxSubjectLength": 72,
-    "bodyLineLength": 100
+    "bodyLineLength": 100,
+    "emoji": true
   }
 }
 ```
